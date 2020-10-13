@@ -1,0 +1,20 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "description": "Documentation of Garage Service API",
+        "title": "Garage Service API",
+        "contact": {},
+        "license": {},
+        "version": "1.0.0"
+    },
+    "host": "micasvn.ddns.net:9999",
+    "basePath": "/",
+    "paths": {},
+    "securityDefinitions": {
+        "BearerToken": {
+            "type": "apiKey",
+            "name": "Authorization",
+            "in": "header"
+        }
+    }
+}

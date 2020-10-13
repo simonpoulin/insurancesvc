@@ -1,0 +1,15 @@
+basePath: /
+host: micasvn.ddns.net:9999
+info:
+  contact: {}
+  description: Documentation of Garage Service API
+  license: {}
+  title: Garage Service API
+  version: 1.0.0
+paths: {}
+securityDefinitions:
+  BearerToken:
+    in: header
+    name: Authorization
+    type: apiKey
+swagger: "2.0"
