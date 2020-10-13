@@ -6,8 +6,8 @@ import (
 
 // CarSize...
 type CarSize struct {
-	ID      primitive.ObjectID
-	Name    string
-	MinSeat int
-	MaxSeat int
+	ID          primitive.ObjectID
+	Description string
+	MinSeat     int
+	MaxSeat     int
 }

@@ -6,9 +6,9 @@ import (
 
 // CarInsurance...
 type CarInsurance struct {
-	ID        primitive.ObjectID
-	CarSizeID primitive.ObjectID
-	Price     int
-	Value     int
-	Type      string
+	ID          primitive.ObjectID
+	CarSizeID   primitive.ObjectID
+	Price       int
+	Description string
+	Type        string
 }
