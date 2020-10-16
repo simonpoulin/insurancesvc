@@ -54,14 +54,9 @@ func CarSizeCol() *mongo.Collection {
 	return db.Collection("CarSizes")
 }
 
-// CompulsoryInsuranceCol ...
+// CarInsuranceCol ...
 func CompulsoryInsuranceCol() *mongo.Collection {
-	return db.Collection("CompulsoryInsurances")
-}
-
-// VoluntaryInsuranceCol ...
-func VoluntaryInsuranceCol() *mongo.Collection {
-	return db.Collection("VoluntaryInsurances")
+	return db.Collection("CarInsurances")
 }
 
 // AccidentInsuranceCol ...

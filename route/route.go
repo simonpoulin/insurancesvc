@@ -6,5 +6,5 @@ import (
 
 // Bootstrap ...
 func Bootstrap(e *echo.Echo) {
-
+	common(e)
 }
